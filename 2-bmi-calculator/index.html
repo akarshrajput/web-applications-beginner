@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculate your BMI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+    <link href="query.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="bmi-container">
+      <div class="bmi-sub-container">
+        <div class="bmi-content">
+          <form>
+            <div>
+              <label for="name">Full Name</label>
+              <input
+                name="name"
+                id="name"
+                class="bmi-input bmi-full-name"
+                type="text"
+                required
+              />
+            </div>
+            <div>
+              <label for="age">Age</label>
+              <input
+                name="age"
+                id="age"
+                class="bmi-input bmi-age"
+                type="number"
+                required
+              />
+            </div>
+            <div>
+              <label for="weight">Weight</label>
+              <input
+                name="weight"
+                id="weight"
+                class="bmi-input bmi-weight"
+                type="number"
+                required
+              />
+            </div>
+            <div>
+              <label for="height">Height</label>
+              <input
+                name="height"
+                id="height"
+                class="bmi-input bmi-height"
+                type="number"
+                required
+              />
+            </div>
+            <input type="button" class="bmi-submit" value="Calculate BMI" />
+          </form>
+
+          <textarea class="bmi-result bmi-input" rows="4" readonly></textarea>
+          <div class="bmi-copy">
+            <p class="copyright">
+              Copyright &copy; 2023 by
+              <a href="https://twitter.com/akarshrajput01">Akarsh Rajput </a>
+              &#x2764;
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

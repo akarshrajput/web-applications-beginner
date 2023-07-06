@@ -1,0 +1,30 @@
+@media (max-width: 29em) {
+  html {
+    font-size: 80%;
+  }
+  .bmi-content form {
+    gap: 3rem;
+  }
+}
+@media (max-width: 417px) {
+  .bmi-content form {
+    gap: 3rem;
+  }
+  .bmi-sub-container {
+    padding: 1rem 3rem;
+    width: 30rem;
+  }
+}
+@media (max-width: 392px) {
+  html {
+    font-size: 75%;
+  }
+}
+@media (max-width: 360px) {
+  html {
+    font-size: 70%;
+  }
+  .bmi-content form {
+    gap: 4rem;
+  }
+}
