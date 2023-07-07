@@ -7,5 +7,5 @@ This repository contains the source code of my beginner web applications. I have
 4. Your Web Docs [Light Mode] [HTML, CSS, JavaScript] - My new creative website.
 
 ## For more Advanced Concepts check my Intermediate & Advanced Repository -
-[Intermediate](https://github.com/akarshrajput/web-applications-intermediate)
+[Intermediate](https://github.com/akarshrajput/web-applications-intermediate)<br>
 [Advanced](https://github.com/akarshrajput/web-applications-advanced)
