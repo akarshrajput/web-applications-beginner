@@ -14,7 +14,7 @@ This repository contains the source code of my beginner web applications. I have
 3 Toss Digital Coin - Toss the random Value as Head & Tail.<br>
 4 Your Web - My new creative website.<br>
 
-## For more advanced check my other repositories -
+## Check my other repositories also
 
 Intermediate repository - [Link](https://github.com/akarshrajput/web-applications-intermediate)<br>
 Advanced repository - [Link](https://github.com/akarshrajput/web-applications-advanced)
