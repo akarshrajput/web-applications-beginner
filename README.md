@@ -12,3 +12,6 @@ This repository contains the source code of my beginner web applications. I have
 
 Intermediate repository - [Link](https://github.com/akarshrajput/web-applications-intermediate)<br>
 Advanced repository - [Link](https://github.com/akarshrajput/web-applications-advanced)
+## License
+
+[MIT License](LICENSE)
