@@ -1,6 +1,12 @@
 # web-applications-beginner
 This repository contains the source code of my beginner web applications. I have made these projects during my first year of college.
 
+## Languages
+
+- HTML<br>
+- CSS<br>
+- JavaScript<br>
+
 ## Projects
 
 1 Your Web Docs - My creative website.<br>
