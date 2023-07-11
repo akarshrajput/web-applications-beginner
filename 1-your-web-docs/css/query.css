@@ -91,6 +91,9 @@
   }
 }
 @media (max-width: 32em) {
+  .header-nav {
+    padding: 1.2rem 2rem;
+  }
   .lang-link {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     padding: 1rem 1rem;
