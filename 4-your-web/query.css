@@ -26,7 +26,44 @@
   }
 }
 @media (max-width: 755px) {
+  /*******************/
+  /*Mobile Navigation*/
+  /*******************/
+  .btn-mobile-nav {
+    display: block;
+  }
+  .header-nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: all 0.5s ease-out;
+    pointer-events: none;
+    visibility: hidden;
+    /* Slide transition to right side*/
+    transform: translateX(100%);
+  }
   .nav-list {
+    display: flex;
+    flex-direction: column;
+    font-size: 2.5rem;
+  }
+  .nav-open .header-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+  .nav-open .close-class {
+    display: block;
+  }
+  .nav-open .menu-class {
     display: none;
   }
 }
