@@ -1,8 +1,5 @@
-document.getElementById("nav-toggle").addEventListener("click", function () {
-  var mobileMenu = document.getElementById("mobile-menu");
-  if (mobileMenu.style.display === "block") {
-    mobileMenu.style.display = "none";
-  } else {
-    mobileMenu.style.display = "block";
-  }
+const btnEl = document.querySelector(".btn-mobile-nav");
+const headerEl = document.querySelector(".header");
+btnEl.addEventListener("click", function () {
+  headerEl.classList.toggle("nav-open");
 });
