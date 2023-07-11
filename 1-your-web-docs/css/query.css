@@ -24,7 +24,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #000;
+    background-color: #000000f0;
     opacity: 0;
     visibility: hidden;
     pointer-events: auto;
