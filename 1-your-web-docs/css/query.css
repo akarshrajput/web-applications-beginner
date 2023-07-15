@@ -29,7 +29,7 @@
     visibility: hidden;
     pointer-events: auto;
     transition: all 0.5s;
-    transform: translateX("100%");
+    transform: translateX(100%);
   }
   .main-nav-list {
     display: flex;
@@ -42,7 +42,7 @@
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
-    transform: translateX("0");
+    transform: translateX(0);
   }
   .nav-open .close-class {
     display: block;

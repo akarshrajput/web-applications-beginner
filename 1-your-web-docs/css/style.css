@@ -61,7 +61,8 @@ body {
 .logo-text {
   letter-spacing: -0.1rem;
   word-spacing: -0.1rem;
-  font-weight: 400;
+  font-weight: 500;
+  letter-spacing: 2px;
 }
 .logo-icon {
   width: 3.5rem;
