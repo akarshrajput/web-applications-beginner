@@ -36,7 +36,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #fff;
+    background-color: #e9ecef;
     width: 100%;
     height: 100vh;
     display: flex;
@@ -52,13 +52,20 @@
   .nav-list {
     display: flex;
     flex-direction: column;
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   .nav-open .header-nav {
     opacity: 1;
     pointer-events: auto;
     visibility: visible;
     transform: translateX(0);
+  }
+  .nav-open .nav-list-item {
+    border-bottom: 2px solid #e9ecef;
+  }
+  .nav-open .nav-list-item:hover,
+  .nav-open .nav-list-item:active {
+    border-bottom: 2px solid #343a40;
   }
   .nav-open .close-class {
     display: block;
