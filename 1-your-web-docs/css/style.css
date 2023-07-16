@@ -8,6 +8,9 @@
   -webkit-focus-ring-color: rgba(255, 255, 255, 0) !important;
   outline: none !important;
 }
+::placeholder {
+  color: #3e3e3e;
+}
 /* Disable Copy, Paste, Cut and More */
 a,
 button,
@@ -27,8 +30,10 @@ html {
 }
 body {
   font-family: "Rubik", sans-serif;
+  font-weight: 400;
   color: #fff;
   border-bottom: 1rem solid #ffe600;
+  font-size: 500;
 }
 .header {
   display: flex;
@@ -76,11 +81,13 @@ body {
 }
 .main-nav-link:link,
 .main-nav-link:visited {
+  font-weight: 500;
   color: #fff;
   text-decoration: none;
   border-bottom: 2px solid #282828;
-  padding-bottom: 0.2rem;
+  padding-bottom: 0.5rem;
   font-size: 1.6rem;
+  transition: all 0.4s;
 }
 .main-nav-link:hover,
 .main-nav-link:active {
@@ -98,6 +105,8 @@ body {
   background-color: #282828;
   display: none;
   transition: all 0.5s;
+  width: 3.5rem;
+  height: 3.5rem;
 }
 .icon-mobile-nav {
   width: 3.5rem;
@@ -137,11 +146,13 @@ body {
   justify-items: center;
 }
 .hero-heading {
-  font-size: 5rem;
+  font-size: 4rem;
+  font-weight: 500;
   margin-bottom: 5rem;
 }
 .hero-paragraph {
   font-size: 3rem;
+  font-weight: 400;
   margin-bottom: 3rem;
 }
 .hero-btn:link,
@@ -153,10 +164,17 @@ body {
   color: #ffee00;
   text-decoration: none;
   border: 2px solid #282828;
+  transition: all 0.4s;
 }
 .hero-btn:hover {
   border: 2px solid #fff200;
   background-color: #000;
+}
+.lang-name {
+  letter-spacing: 1px;
+}
+.lang-list {
+  letter-spacing: 0.5px;
 }
 .hero-btn:active {
   border: 2px solid #000;
@@ -165,7 +183,7 @@ body {
   padding: 1rem 4rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   justify-items: center;
   font-size: 1.6rem;
@@ -174,10 +192,12 @@ body {
 }
 .link:link,
 .link:visited {
+  font-weight: 500;
   text-decoration: none;
   color: #fff;
   padding: 0.5rem 2rem;
   border-bottom: 2px solid #000;
+  transition: all 0.4s;
 }
 .link:hover,
 link:active {
@@ -203,17 +223,15 @@ link:active {
   text-decoration: none;
   color: #000;
 }
-.content-link:hover {
-  border-bottom: 3px solid #000;
-}
+.content-link:hover,
 .content-link:active {
-  border-bottom: 3px solid #ffe600;
+  border-bottom: 3px solid #000;
 }
 .arrow-content {
   position: absolute;
   z-index: 1;
   left: 57%;
-  top: -4rem;
+  top: -5rem;
 }
 .arrow-content-img {
   width: 6rem;
@@ -255,6 +273,7 @@ link:active {
   text-decoration: none;
   color: white;
   border-bottom: 2px solid #000;
+  transition: all 0.4s;
 }
 .lang-name:hover,
 .lang-name:active {
@@ -271,6 +290,7 @@ link:active {
   text-decoration: none;
   color: #ffe600;
   border-bottom: 2px solid #000;
+  transition: all 0.4s;
 }
 .language-link:hover,
 .language-link:active {
@@ -298,19 +318,21 @@ link:active {
   font-size: 1.6rem;
   resize: none;
   border: none;
+  font-weight: 500;
   margin-bottom: 2rem;
-  background-color: #282828;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
 }
-.email-text {
+.common-text {
   border-radius: 5px;
   padding: 1rem 2rem;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
+  font-weight: 500;
   max-width: 40rem;
   border: none;
   margin-bottom: 2rem;
-  background-color: #282828;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
 }
 .comment-submit {
   max-width: 20rem;
@@ -321,7 +343,7 @@ link:active {
   align-self: center;
   padding: 0.5rem 2rem;
   font-size: 1.8rem;
-  font-weight: 500;
+  font-weight: 700;
   border: none;
   color: #000;
 }
