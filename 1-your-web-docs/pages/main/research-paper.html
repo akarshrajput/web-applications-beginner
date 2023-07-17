@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Research Paper</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="research-paper.css" rel="stylesheet" />
+  </head>
+  <body>
+    <main>
+      <div>
+        <form class="input-form">
+          <div class="input-text">
+            <textarea
+              class="input-text-area"
+              required
+              name="research-paper"
+              placeholder="Write here..........."
+            ></textarea>
+          </div>
+          <div class="info">
+            <label for="first-name">First Name</label>
+            <input
+              id="first-name"
+              class="input-common"
+              type="text"
+              name="first-name"
+              required
+            />
+            <label for="last-name">Last Name</label>
+            <input
+              id="last-name"
+              class="input-common"
+              type="text"
+              name="last-name"
+              required
+            />
+            <label for="date-of-birth">D.O.B</label>
+            <input
+              id="date-of-birth"
+              class="input-common"
+              type="date"
+              name="date-of-birth"
+              required
+            />
+            <label for="gender">Gender</label>
+            <select required name="gender" id="gender" class="input-common">
+              <option value="">Select</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="other">Other</option>
+            </select>
+            <label for="email">Email</label>
+            <input class="input-common" type="email" name="email" required />
+            <label for="university-name">School/University name</label>
+            <input
+              id="university-name"
+              class="input-common"
+              type="text"
+              name="university-name"
+              required
+            />
+            <label for="field-of-study">Field of study</label>
+            <input
+              id="field-of-study"
+              class="input-common"
+              type="text"
+              name="field-of-study"
+              required
+            />
+            <label for="qualifications">Qualification</label>
+            <select
+              required
+              name="qualification"
+              id="qualification"
+              class="input-common"
+            >
+              <option value="">Select</option>
+              <option value="masters-degree">High School Diploma</option>
+              <option value="bachelors-degree">Bachelor's Degree</option>
+              <option value="graduate">Master's Degree</option>
+              <option value="undergraduate">Doctorate or Ph.D.</option>
+              <option value="self-learned">Other Qualifications</option>
+            </select>
+            <label for="graduation-year">Graduation year</label>
+            <input
+              id="graduation-year"
+              class="input-common"
+              type="number"
+              name="graduation-year"
+              required
+            />
+            <button class="submit">SUBMIT</button>
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
