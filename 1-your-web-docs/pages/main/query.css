@@ -1,0 +1,35 @@
+@media (max-width: 1000px) {
+  html {
+    font-size: 55%;
+  }
+  .input-form {
+    grid-template-columns: 1fr;
+  }
+  .input-text {
+    grid-column: 1/-1;
+    max-width: 120rem;
+  }
+  .yourweb {
+    text-align: center;
+  }
+  .info {
+    grid-column: 1/-1;
+    margin: 2rem 0;
+  }
+}
+@media (max-width: 500px) {
+  html {
+    font-size: 50%;
+  }
+}
+@media (max-width: 400px) {
+  .input-text-area {
+    height: 60rem;
+  }
+  .input-common {
+    width: 100%;
+  }
+  .submit {
+    width: 100%;
+  }
+}

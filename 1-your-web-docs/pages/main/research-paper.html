@@ -11,6 +11,7 @@
       rel="stylesheet"
     />
     <link href="research-paper.css" rel="stylesheet" />
+    <link href="query.css" rel="stylesheet" />
   </head>
   <body>
     <main>
@@ -19,26 +20,20 @@
           <div class="input-text">
             <textarea
               class="input-text-area"
+              placeholder="Start typing here..."
               required
               name="research-paper"
-              placeholder="Write here..........."
             ></textarea>
+            <h2 class="yourweb">Powered by <mark>YourWeb Docs</mark></h2>
+            <textarea class="input-show-area" readonly></textarea>
           </div>
           <div class="info">
-            <label for="first-name">First Name</label>
+            <label for="full-name">Full Name</label>
             <input
-              id="first-name"
+              id="full-name"
               class="input-common"
               type="text"
-              name="first-name"
-              required
-            />
-            <label for="last-name">Last Name</label>
-            <input
-              id="last-name"
-              class="input-common"
-              type="text"
-              name="last-name"
+              name="full-name"
               required
             />
             <label for="date-of-birth">D.O.B</label>
@@ -93,7 +88,7 @@
               id="graduation-year"
               class="input-common"
               type="number"
-              name="graduation-year"
+              name="field-of-study"
               required
             />
             <button class="submit">SUBMIT</button>
