@@ -51,10 +51,10 @@ body {
   font-weight: 400;
   margin: 1rem 0;
 }
-.yourweb mark {
-  background: none;
+.yourweb a {
   color: #ffe600;
   font-weight: 500;
+  text-decoration: none;
 }
 .input-show-area {
   border: 1px solid #000000;

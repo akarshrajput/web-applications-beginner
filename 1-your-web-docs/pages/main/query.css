@@ -1,7 +1,4 @@
 @media (max-width: 1000px) {
-  html {
-    font-size: 55%;
-  }
   .input-form {
     grid-template-columns: 1fr;
   }
@@ -17,14 +14,9 @@
     margin: 2rem 0;
   }
 }
-@media (max-width: 500px) {
-  html {
-    font-size: 50%;
-  }
-}
 @media (max-width: 400px) {
   .input-text-area {
-    height: 60rem;
+    height: 50rem;
   }
   .input-common {
     width: 100%;
