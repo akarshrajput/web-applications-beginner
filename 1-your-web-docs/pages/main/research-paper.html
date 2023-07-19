@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Research Paper</title>
+    <link rel="icon" href="img/Favicon.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,13 +17,13 @@
   <body>
     <main>
       <div>
-        <form class="input-form">
+        <form class="input-form" name="Research Paper" netlify>
           <div class="input-text">
             <textarea
               class="input-text-area"
               placeholder="Start typing here..."
               required
-              name="research-paper"
+              name="Content"
             ></textarea>
             <h2 class="yourweb">Powered by <a href="/">YourWeb Docs</a></h2>
             <textarea class="input-show-area" readonly></textarea>
@@ -33,7 +34,7 @@
               id="full-name"
               class="input-common"
               type="text"
-              name="full-name"
+              name="Full Name"
               required
             />
             <label for="date-of-birth">D.O.B</label>
@@ -41,18 +42,18 @@
               id="date-of-birth"
               class="input-common"
               type="date"
-              name="date-of-birth"
+              name="D.O.B"
               required
             />
             <label for="gender">Gender</label>
-            <select required name="gender" id="gender" class="input-common">
+            <select required name="Gender" id="gender" class="input-common">
               <option value="">Select</option>
               <option value="male">Male</option>
               <option value="female">Female</option>
               <option value="other">Other</option>
             </select>
             <label for="email">Email</label>
-            <input class="input-common" type="email" name="email" required />
+            <input class="input-common" type="email" name="Email" required />
             <label for="university-name">School/University name</label>
             <input
               id="university-name"
@@ -66,13 +67,13 @@
               id="field-of-study"
               class="input-common"
               type="text"
-              name="field-of-study"
+              name="Field of study"
               required
             />
             <label for="qualifications">Qualification</label>
             <select
               required
-              name="qualification"
+              name="Qualification"
               id="qualification"
               class="input-common"
             >
@@ -88,7 +89,7 @@
               id="graduation-year"
               class="input-common"
               type="number"
-              name="field-of-study"
+              name="Graduation year"
               required
             />
             <button class="submit">SUBMIT</button>
