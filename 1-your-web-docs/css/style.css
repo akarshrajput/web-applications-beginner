@@ -11,10 +11,10 @@
 ::placeholder {
   color: #3e3e3e;
 }
-/* Disable Copy, Paste, Cut and More */
 a,
 button,
 img {
+  /* Disable Copy, Paste, Cut and More */
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -233,7 +233,8 @@ link:active {
   position: absolute;
   z-index: 1;
   left: 57%;
-  top: -5rem;
+  top: -4.5rem;
+  display: none; /* Not displaying arrow heading towards Research Paper link */
 }
 .arrow-content-img {
   width: 6rem;
