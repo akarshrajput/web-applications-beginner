@@ -7,6 +7,9 @@
   .text-info-container-elements {
     grid-template-columns: 1fr 1fr;
   }
+  .input-text-area {
+    height: 46rem;
+  }
   .code-made-by {
     grid-column: 1;
     grid-row: 2;

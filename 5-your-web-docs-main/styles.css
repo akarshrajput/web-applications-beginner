@@ -436,13 +436,12 @@ body {
 /* Footer Section */
 /******************/
 .footer {
-  background-color: #181b1e;
+  background-color: #e9ecef;
 }
 .footer-container {
   max-width: 1300px;
   margin: 0 auto;
   padding: 10rem 2rem;
-  color: #e9ecef;
   font-family: "Kanit", sans-serif;
 }
 .footer-grid {
@@ -454,7 +453,7 @@ body {
   display: flex;
   gap: 3rem;
   list-style: none;
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
 }
 .social-icon {
   height: 2.4rem;
@@ -463,18 +462,21 @@ body {
 
 .footer-main-heading {
   text-decoration: none;
-  color: #ffe600;
-  font-size: 2rem;
+  color: #e9ecef;
+  border-radius: 4px;
+  font-size: 2.2rem;
   font-weight: 500;
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
+  background-color: #087f5b;
+  text-align: center;
 }
 .footer-heading {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 500;
   margin-bottom: 10.5rem;
 }
 .footer-heading-2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 500;
   margin-bottom: 3rem;
 }
@@ -485,9 +487,9 @@ body {
   list-style: none;
 }
 .footer-link {
-  color: #fff;
+  color: #212529;
   text-decoration: none;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
 }
 .logo-col {
   display: flex;
@@ -498,8 +500,9 @@ body {
   font-size: 1.4rem;
 }
 .copyright a {
+  display: block;
   text-decoration: none;
-  color: #fff;
+  color: #212529;
   font-weight: 600;
 }
 .nav-col {
@@ -507,7 +510,7 @@ body {
 }
 .contacts {
   font-style: normal;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
 }
 .address-col {
   justify-self: center;
