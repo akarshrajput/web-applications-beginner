@@ -8,17 +8,14 @@
 }
 html {
   font-size: 62.5%;
-  height: 100vh;
-}
-body {
-  height: 100vh;
+  background-color: #23272b;
+  height: 100%;
 }
 .input-section {
   font-family: "Rubik", sans-serif;
   padding: 2rem 2rem 2rem 2rem;
   background-color: #23272b;
   color: #dee2e6;
-  height: 100vh;
 }
 .input-form {
   display: grid;
@@ -50,33 +47,36 @@ body {
 .text-info-container {
   display: flex;
   align-items: center;
-  justify-content: end;
+  justify-content: center;
   margin: 0.5rem 0;
 }
 .submit-code {
   background-color: #085d43 !important;
 }
 .text-info-container-elements {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
   align-items: center;
+  justify-content: center;
   gap: 1rem;
 }
 .code-elements {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 0.5rem;
   font-weight: 400;
   font-size: 1.4rem;
   text-decoration: none;
   color: #e9ecef;
-  padding: 0.5rem 1rem;
+  padding: 1.5rem 1rem;
   background-color: #1f2227;
   border-radius: 4px;
   border: none;
   cursor: pointer;
 }
 .code-made-by {
-  cursor: default;
+  cursor: pointer;
 }
 .code-made-by a {
   cursor: pointer;
@@ -90,7 +90,7 @@ body {
   padding: 1rem 1rem;
   width: 100%;
   font-size: 1.6rem;
-  height: 15rem;
+  height: 14rem;
   background-color: #1f2227;
   color: #dee2e6;
   line-height: 1.3;

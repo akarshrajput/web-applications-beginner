@@ -15,6 +15,7 @@
     />
   </head>
   <body>
+    <a href="#" class="any-question"><ion-icon name="settings"></ion-icon></a>
     <header class="header">
       <div class="header-container">
         <div class="logo">
@@ -40,7 +41,7 @@
             <li>
               <a class="nav-2 navigation-links" href="#input-section-point"
                 ><mark class="mark-yellow"
-                  >Research Paper<ion-icon name="cafe"></ion-icon></mark
+                  >Compiler<ion-icon name="bug"></ion-icon></mark
               ></a>
             </li>
             <li>
@@ -86,7 +87,7 @@
       <section class="hero">
         <div class="hero-container">
           <div class="hero-text">
-            <h2>Welcome to YourWeb Docs, the modern way for documentation</h2>
+            <h2>Welcome to YourWeb Docs, the modern way for documentation.</h2>
             <p>
               Whether you're a developer, designer, project manager, or simply
               looking to organize your personal projects,
@@ -95,9 +96,7 @@
           </div>
           <div class="hero-btn">
             <div class="hero-btn-container">
-              <a
-                href="#input-section-point"
-                class="hero-btn-common hero-btn-first"
+              <a href="#" class="hero-btn-common hero-btn-first"
                 >Research Paper<ion-icon name="cafe"></ion-icon>
               </a>
               <a href="#" class="hero-btn-common hero-btn-second"
@@ -162,12 +161,15 @@
         </div>
       </section>
       <!--Input Section-->
-      <section id="input-section-point" class="input-section">
+      <h2 id="input-section-point" class="section-heading">
+        Try our Compiler!
+      </h2>
+      <section class="input-section">
         <form class="input-form" name="Research Paper" netlify>
           <div class="input-text">
             <textarea
               class="input-text-area"
-              placeholder="Start typing here..."
+              placeholder="Code here..."
               required
               name="Content"
             ></textarea>
@@ -187,21 +189,100 @@
                 >
                   Full Screen <ion-icon name="expand"></ion-icon>
                 </a>
+
                 <a href="#" class="code-elements submit-code"
                   >Run Code <ion-icon name="play"></ion-icon
                 ></a>
                 <button href="#" class="code-elements submit-code">
-                  Submit<ion-icon name="send"></ion-icon>
+                  Submit <ion-icon name="square"></ion-icon>
                 </button>
               </div>
             </div>
-            <textarea class="input-show-area" readonly>
->>>Terminal : No output</textarea
-            >
+            <textarea class="input-show-area" readonly>No output</textarea>
           </div>
         </form>
       </section>
     </main>
+    <!--Footer Section-->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-grid">
+          <div class="logo-col">
+            <a href="#" class="footer-main-heading"><p>YourWeb</p></a>
+
+            <ul class="social-links">
+              <li>
+                <a class="footer-link" href="#"
+                  ><ion-icon
+                    class="social-icon"
+                    name="logo-instagram"
+                  ></ion-icon>
+                </a>
+              </li>
+              <li>
+                <a class="footer-link" href="#"
+                  ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a class="footer-link" href="#"
+                  ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+                ></a>
+              </li>
+            </ul>
+            <div>
+              <p class="copyright">
+                Copyright &copy; 2023
+                <a href="https://twitter.com/imakarshrajput" target="_blank"
+                  >Akarsh Rajput &#x2764;</a
+                >
+              </p>
+              <p class="copyright">Inc. All rights reserved.</p>
+            </div>
+          </div>
+          <div class="address-col">
+            <p class="footer-heading">Contact us</p>
+            <address class="contacts">
+              <p class="address">Jalandhar, Punjab, India</p>
+              <p>
+                <a class="footer-link" href="mailto:akarshrajput.01@gmail.com"
+                  >akarshrajput.01@gmail.com</a
+                >
+              </p>
+            </address>
+          </div>
+          <nav class="nav-col--1 nav-col">
+            <p class="footer-heading-2">Account</p>
+            <ul class="footer-nav">
+              <li><a class="footer-link" href="#">Create account</a></li>
+              <li><a class="footer-link" href="#">Sign in</a></li>
+              <li><a class="footer-link" href="#">iOS app</a></li>
+              <li><a class="footer-link" href="#">Android app</a></li>
+            </ul>
+          </nav>
+
+          <nav class="nav-col--2 nav-col">
+            <p class="footer-heading-2">Website</p>
+            <ul class="footer-nav">
+              <li><a class="footer-link" href="#">About YourWeb</a></li>
+              <li><a class="footer-link" href="#">For Business</a></li>
+              <li><a class="footer-link" href="#">Partners</a></li>
+              <li><a class="footer-link" href="#">Careers</a></li>
+            </ul>
+          </nav>
+
+          <nav class="nav-col--3 nav-col">
+            <p class="footer-heading-2">Resources</p>
+            <ul class="footer-nav">
+              <li><a class="footer-link" href="#">Services</a></li>
+              <li><a class="footer-link" href="#">Products</a></li>
+              <li><a class="footer-link" href="#">Help center</a></li>
+              <li><a class="footer-link" href="#">Privacy & terms</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </footer>
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
   </body>
 </html>

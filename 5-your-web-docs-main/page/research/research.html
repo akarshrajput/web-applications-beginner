@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link href="research.css" rel="stylesheet" />
+    <link href="research-query.css" rel="stylesheet" />
   </head>
   <body>
     <!--Input Section-->
@@ -13,20 +14,22 @@
         <div class="input-text">
           <textarea
             class="input-text-area"
-            placeholder="Start typing here..."
+            placeholder="Code here..."
             required
             name="Content"
           ></textarea>
           <div class="text-info-container">
             <div class="text-info-container-elements">
-              <p class="code-elements code-made-by">
-                Made by
-                <a href="https://twitter.com/imakarshrajput">Akarsh</a>
-                <ion-icon name="heart"></ion-icon>
-              </p>
+              <a
+                href="https://twitter.com/imakarshrajput"
+                class="code-elements code-made-by"
+              >
+                Made by Akarsh
+                <ion-icon name="heart"></ion-icon
+              ></a>
               <a
                 href="https://yourwebdocs.netlify.app/pages/main/research-paper.html"
-                class="code-elements"
+                class="code-elements full-screen"
               >
                 Full Screen <ion-icon name="expand"></ion-icon>
               </a>
@@ -38,9 +41,7 @@
               </button>
             </div>
           </div>
-          <textarea class="input-show-area" readonly>
->>>Terminal : No output</textarea
-          >
+          <textarea class="input-show-area" readonly>No output</textarea>
         </div>
       </form>
     </section>
