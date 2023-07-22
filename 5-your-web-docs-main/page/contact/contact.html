@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact.me</title>
+    <link href="contact.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Kanit:wght@200;300;400;500&family=Pangolin&family=Rubik:wght@300;400;500;600;700;800;900&family=Source+Code+Pro:wght@200;300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;500;600&family=Ubuntu:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <div>
+        <form class="input-form" name="Research Paper" netlify>
+          <div class="info">
+            <label for="full-name">Full Name</label>
+            <input
+              id="full-name"
+              class="input-common"
+              type="text"
+              name="Full Name"
+              required
+            />
+            <label for="email">Email</label>
+            <input class="input-common" type="email" name="Email" required />
+
+            <label for="contact-number">Contact number ( optional )</label>
+            <input
+              id="contact-number"
+              class="input-common"
+              type="number"
+              name="Contact Number"
+            />
+            <label for="country">Country</label>
+            <input
+              id="country"
+              class="input-common"
+              type="text"
+              name="Country"
+              required
+            />
+            <label for="qualifications">Qualification</label>
+            <select
+              required
+              name="Qualification"
+              id="qualification"
+              class="input-common"
+            >
+              <option value="">Select</option>
+              <option value="masters-degree">High School Diploma</option>
+              <option value="bachelors-degree">Bachelor's Degree</option>
+              <option value="graduate">Master's Degree</option>
+              <option value="undergraduate">Doctorate or Ph.D.</option>
+              <option value="self-learned">Other Qualifications</option>
+            </select>
+            <textarea
+              class="fill-area"
+              placeholder="Write your query here..."
+              required
+            ></textarea>
+            <button class="submit">SUBMIT</button>
+          </div>
+        </form>
+      </div>
+    </main>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  </body>
+</html>
