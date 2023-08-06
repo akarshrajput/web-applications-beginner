@@ -16,22 +16,25 @@ html {
 }
 body {
   font-family: 'Rubik', sans-serif;
-  color: #fff;
+  color: #343a40;
   height: 100%vh;
-  background-color: #000;
+  background-color: #e6fcf5;
 }
 .bmi-container {
-  background-color: #000;
+  background-color: #e6fcf5;
   height: 100%vh;
 }
 .bmi-sub-container {
-  background-color: #000;
+  background-color: #e6fcf5;
   width: 32rem;
   margin: 0 auto;
   padding: 1rem 4rem;
   display: flex;
 
   margin-top: 1rem;
+}
+.bmi-content div {
+  filter: drop-shadow(2px 2px 3px #adadad5c);
 }
 .bmi-content form {
   display: flex;
@@ -45,7 +48,7 @@ body {
   font-size: 1.4rem;
   width: 23.6rem;
   padding: 0.5rem 0;
-  background-color: #fff200;
+  background-color: #099268;
   border: none;
   border-radius: 0.4rem;
   margin-bottom: 4rem;
@@ -71,11 +74,11 @@ body {
 }
 .copyright a {
   text-decoration: none;
-  border-bottom: 2px solid #000;
-  color: #fff;
+  border-bottom: 2px solid #e6fcf5;
+  color: #343a40;
   text-align: center;
 }
 .copyright a:active,
 .copyright a:hover {
-  border-bottom: 2px solid #ffffff;
+  border-bottom: 2px solid #343a40;
 }
