@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: #212529;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  font-family: "Inconsolata", monospace;
+}
+.flag {
+  width: 60rem;
+  height: 40rem;
+  margin: auto 0;
+}
+.one-color {
+  display: flex;
+  flex-direction: column;
+  height: 13.33rem;
+}
+.orange-c {
+  background-color: #ff922b;
+}
+.white-c {
+  background-color: #fff;
+}
+.green-c {
+  background-color: #40c057;
+}
+.wheel {
+  height: 13.34rem;
+  width: 13.33rem;
+  border-radius: 50%;
+  border: 0.3rem solid #4263eb;
+  position: relative;
+}
+.wheel-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.line {
+  height: 100%;
+  width: 0.2rem;
+  position: absolute;
+  background-color: #4263eb;
+  left: 50%;
+}
+.line:nth-child(1) {
+  transform: rotate(15deg);
+}
+.line:nth-child(2) {
+  transform: rotate(30deg);
+}
+.line:nth-child(3) {
+  transform: rotate(45deg);
+}
+.line:nth-child(4) {
+  transform: rotate(60deg);
+}
+.line:nth-child(5) {
+  transform: rotate(75deg);
+}
+.line:nth-child(6) {
+  transform: rotate(90deg);
+}
+.line:nth-child(7) {
+  transform: rotate(105deg);
+}
+.line:nth-child(8) {
+  transform: rotate(120deg);
+}
+.line:nth-child(9) {
+  transform: rotate(135deg);
+}
+.line:nth-child(10) {
+  transform: rotate(150deg);
+}
+.line:nth-child(11) {
+  transform: rotate(165deg);
+}
+.text-container {
+  margin-top: 2rem;
+  color: #fff;
+  font-size: 1.6rem;
+  text-align: center;
+}
+.text-container h2 {
+  letter-spacing: 0.2rem;
+}
+.text-container h3 a {
+  text-decoration: none;
+  color: #7950f2;
+  letter-spacing: 0.1rem;
+}
+/*****************/
+/* Media Queries */
+/*****************/
+@media (max-width: 680px) {
+  html {
+    font-size: 55%;
+  }
+}
+@media (max-width: 590px) {
+  html {
+    font-size: 48%;
+  }
+}
+@media (max-width: 512px) {
+  html {
+    font-size: 40%;
+  }
+}
+@media (max-width: 434px) {
+  html {
+    font-size: 30%;
+  }
+}
+@media (max-width: 316px) {
+  html {
+    font-size: 25%;
+  }
+}
